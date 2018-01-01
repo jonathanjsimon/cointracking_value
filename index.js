@@ -12,6 +12,7 @@ function getConfigPath()
     return homePath + "/.cointracking/config.json";
 }
 
+// This function borrowed from https://github.com/bpirson/cointracking-example-NodeJs
 async function coinTracking(method, params) {
     var paramsSafety = params || {};
     params = paramsSafety;
