@@ -1,0 +1,29 @@
+{
+  "name": "cointracking_value",
+  "version": "1.0.0",
+  "description": "Outputs cointracking.info value",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanjsimon/cointracking_value.git"
+  },
+  "author": "Jonathn Simon",
+  "license": "MIT",
+  "dependencies": {
+    "form-data": "~2.3.1",
+    "fs": "",
+    "moment": "~2.19.1",
+    "node-fetch": "~1.7.3",
+    "os": "",
+    "password-hasher": "~1.0.1",
+    "qhttp": "~0.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanjsimon/cointracking_value/issues"
+  },
+  "homepage": "https://github.com/jonathanjsimon/cointracking_value#readme"
+}
